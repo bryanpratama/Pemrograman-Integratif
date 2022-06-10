@@ -7,7 +7,7 @@
 
 Download dan Extract file untuk instalasi PHP
 
-file dapat di download di sini https://www.php.net/downloads.php
+File dapat di download di sini https://www.php.net/downloads.php
 
 <img src="https://github.com/bryanpratama/Pemrograman-Integratif/blob/main/instalasi-laravel/Assets/web_php.png" width="" height="350">
 
@@ -29,11 +29,12 @@ Pada `System variables` pilih `Path` tambahkan alamat dari file PHP, kemudian ok
 
 Buka Terminal dan gunakan `php –v` untuk mengecek sudah terinstall atau belum
 
-<img src="https://github.com/bryanpratama/Pemrograman-Integratif/blob/main/instalasi-laravel/Assets/php-v.png" width="" height="350">
+<!-- <img src="https://github.com/bryanpratama/Pemrograman-Integratif/blob/main/instalasi-laravel/Assets/php-v.png" width="" height="350"> -->
+![](Assets/php-v.png)
 
 ## Install Composer
 
-Download dan Install Composer
+Download dan Install Composer https://getcomposer.org/download/
 
 <!-- Revisi disini -->
 
@@ -49,13 +50,14 @@ Buka Terminal dan gunakan `composer` untuk mengecek sudah terinstall atau belum
 
 Bikin file baru kemudian gunakan `composer create-project laravel/laravel` untuk create project, pada akhir code tambahkan nama file ex:`composer create-project laravel/laravel test`
 
-<img src="https://github.com/bryanpratama/Pemrograman-Integratif/blob/main/instalasi-laravel/Assets/open_file_test.png" width="" height="350">
+<img src="https://github.com/bryanpratama/Pemrograman-Integratif/blob/main/instalasi-laravel/Assets/create-project.png" width="" height="350">
 
 Buka file dengan menggunakan code editor, disini saya menggunakan vs code
 
-<img src="https://github.com/bryanpratama/Pemrograman-Integratif/blob/main/instalasi-laravel/Assets/open_file_test.png" width="" height="350">
+<!-- <img src="https://github.com/bryanpratama/Pemrograman-Integratif/blob/main/instalasi-laravel/Assets/open_file_test.png" width="" height="350"> -->
+![](Assets/open_file_test.png)
 
-Pada terminal gunakan `php artisan serve` untuk menjalanjan, kemudian CTRL+click untuk membuka link
+Pada terminal gunakan `php artisan serve` untuk menjalankan, kemudian CTRL+click untuk membuka link
 
 <img src="https://github.com/bryanpratama/Pemrograman-Integratif/blob/main/instalasi-laravel/Assets/deploy_laravel.png" width="" height="350">
 
