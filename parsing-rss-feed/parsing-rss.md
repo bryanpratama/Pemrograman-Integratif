@@ -36,7 +36,9 @@ php artisan make:model News --controller
 
 
 Melakukan Route di web.php
+
 <img src="https://github.com/bryanpratama/Pemrograman-Integratif/blob/main/parsing-rss-feed/Assets/route.png" width="" height="350">
+
 ![](Assets/news_link.png)
 
 
@@ -46,10 +48,10 @@ php artisan migrate
 ```
 Edit file NewsController.php
 
-<img src="https://github.com/bryanpratama/Pemrograman-Integratif/blob/main/parsing-rss-feed/Assets/.png" width="" height="350">
+<img src="https://github.com/bryanpratama/Pemrograman-Integratif/blob/main/parsing-rss-feed/Assets/news_controller.png" width="" height="350">
 
 ```
-php artisan migrate:fresh
+php artisan migrate:refresh
 php artisan migrate --seed
 ```
 
